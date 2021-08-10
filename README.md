@@ -33,9 +33,9 @@ I used a realtime database to perfom creation and deletion request
 ## Setup
 To run this project, clone and install it locally using npm:
 ```
-git clone git@github.com:hydris-bessa/API_CDA_Typescript_NodeJS_Mongodb.git
+git clone git@github.com:hydris-bessa/api_crud_wcs.git
 npm install
-nmp start
+npm start
 ```
 
 ## Contributing
