@@ -1,4 +1,4 @@
-# API CRUD Sample
+# API Firebase CRUD sample
 
 <img align="left" alt="typescript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 <img align="left" alt="express" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" />
@@ -13,26 +13,29 @@ Creating an API Rest for a pseudo website
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [API Documentation](#api-documentation)
 
 ## General info
-This project is a boilerplate application for building REST APIs in Node.js, mongoose, Express, MongoDB and Typescript 
+This project is a boilerplate application for building CRUD with Firebase and ReactJS
 	
 ## Technologies
-Project is created with:
+Project created with:
 * npm: 6.14.13
-* body-parser: 1.19.0
-* dotenv: 8.2.0
-* express: 4.17.1
-* mongoose: 5.13.0
-* typescript: 4.3.5
+* firebase: ^8.7.0
+* react: ^17.0.2
+* react-dom: ^17.0.2
+* react-router-dom: ^5.2.0
+* material-ui/core: ^4.12.1
+* material-ui/icons: ^4.11.2
+
+### Firebase
+I used a realtime database to perfom creation and deletion request
 	
 ## Setup
 To run this project, clone and install it locally using npm:
 ```
 git clone git@github.com:hydris-bessa/API_CDA_Typescript_NodeJS_Mongodb.git
 npm install
-nodemon source/server.ts
+nmp start
 ```
 
 ## Contributing
