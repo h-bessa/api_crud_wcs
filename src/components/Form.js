@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import firebase from "../utils/firebase";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
-
 import SaveIcon from "@material-ui/icons/Save";
 import Fab from "@material-ui/core/Fab";
-import NavigationIcon from "@material-ui/icons/Navigation";
-
 import "../App.css";
 import "./Form.css";
-import { ifStatement } from "@babel/types";
 
 function Form() {
   const [crewMember, setCrewMember] = useState("");
